@@ -7,7 +7,8 @@ namespace NSSplit
         static void Main(string[] args)
         {
             string text = "Привет. Меня зовут Евгений. Я прохожу курс.";
-            string[] words = text.Split(' ');
+            char whitespace = ' ';
+            string[] words = text.Split(whitespace);
 
             foreach (string word in words)
             {
